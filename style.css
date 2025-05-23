@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#f4d7d9; ;
+    color: #333;
+}
+header {
+    background-color: #c999af;;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+    color:black;;
+}
+div {
+    
+    text-align: center;
+    padding: 10px 0;
+}
+div a {
+    margin: 0 15px;
+    color:#141213;;
+    text-decoration: none;
+    font-weight: bold;
+}
+.hero {
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+.content {
+    padding: 40px;
+    text-align: center;
+}
+.content h2 {
+    color: #c999af;;
+}
+footer {
+    background-color: #c999af;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+.servicos, .sobre, .contato {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input, select, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #c999af;
+    color: rgb(168, 90, 151);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+button:hover {
+    background-color: #f4d7d9;
+}
+
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
